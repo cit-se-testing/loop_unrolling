@@ -73,7 +73,7 @@ feature
 			num1 := abs (arg_num1)
 			num2 := abs (arg_num2)
 
-				--	check one_divides_both: divides_both (Result, num1, num2, bn) end
+			check one_divides_both: divides_both (Result, num1, num2, bn) end
 
 			if num1 = 0 ∧ num2 = 0 then
 				Result := -1
@@ -86,18 +86,18 @@ feature
 			else
 				from
 					i := 1
---				invariant
---					result_less_than_args: Result <= num1 ∧ Result <= num2
---					i_lessish_than_args: 0 < i ∧ i <= num1 + 1 ∧ i <= num2 + 1
---					result_in_range: 0 < Result ∧ Result <= i
---					current_solution_is_divisor: divides_both (Result, num1, num2, bn)
+				invariant
+					result_less_than_args: Result <= num1 ∧ Result <= num2
+					i_lessish_than_args: 0 < i ∧ i <= num1 + 1 ∧ i <= num2 + 1
+					result_in_range: 0 < Result ∧ Result <= i
+					current_solution_is_divisor: divides_both (Result, num1, num2, bn)
 
---					base: Result + 1 <= i - 2 ⇒ not divides_both (Result + 1, num1, num2, bn)
---					step: (∀ j: (Result + 1) |..| (i - 2) ¦ not divides_both (j, num1, num2, bn)) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn))
---					induction: (
---							(not divides_both (Result + 1, num1, num2, bn)) ∧ -- if base holds
---							((∀ j: (Result + 1) |..| (i - 2) ¦ not divides_both (j, num1, num2, bn)) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn))) -- and step holds
---						) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn)) -- then the conclusion holds
+					base: Result + 1 <= i - 2 ⇒ not divides_both (Result + 1, num1, num2, bn)
+					step: (∀ j: (Result + 1) |..| (i - 2) ¦ not divides_both (j, num1, num2, bn)) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn))
+					induction: (
+							(not divides_both (Result + 1, num1, num2, bn)) ∧ -- if base holds
+							((∀ j: (Result + 1) |..| (i - 2) ¦ not divides_both (j, num1, num2, bn)) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn))) -- and step holds
+						) ⇒ (∀ j: (Result + 1) |..| (i - 1) ¦ not divides_both (j, num1, num2, bn)) -- then the conclusion holds
 
 				until
 					i > num1 ∨ i > num2
@@ -110,19 +110,18 @@ feature
 						Result := Result
 					end
 					i := i + 1
---				variant
---					num1 - i
+				variant
+					num1 - i
 				end
-					-- print (index.out + "%N")
 			end
---		ensure
---			all_zero: arg_num1 = 0 ∧ arg_num2 = 0 ⇒ Result = -1
---			num1_zero: arg_num1 = 0 ∧ arg_num2 /= 0 ⇒ Result = abs (arg_num2)
---			num2_zero: arg_num1 /= 0 ∧ arg_num2 = 0 ⇒ Result = abs (arg_num1)
---			posargs_result_is_positive: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ Result > 0
---			posargs_result_divides_arg_num1: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ div (abs (arg_num1), Result) = 0
---			posargs_result_divides_arg_num2: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ div (abs (arg_num2), Result) = 0
---			posargs_result_is_maximal_divisor: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ (∀ j: (Result + 1) |..| min (arg_num1, arg_num2) ¦ not divides_both (j, abs (arg_num1), abs (arg_num2), bn))
+		ensure
+			all_zero: arg_num1 = 0 ∧ arg_num2 = 0 ⇒ Result = -1
+			num1_zero: arg_num1 = 0 ∧ arg_num2 /= 0 ⇒ Result = abs (arg_num2)
+			num2_zero: arg_num1 /= 0 ∧ arg_num2 = 0 ⇒ Result = abs (arg_num1)
+			posargs_result_is_positive: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ Result > 0
+			posargs_result_divides_arg_num1: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ div (abs (arg_num1), Result) = 0
+			posargs_result_divides_arg_num2: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ div (abs (arg_num2), Result) = 0
+			posargs_result_is_maximal_divisor: arg_num1 /= 0 ∧ arg_num2 /= 0 ⇒ (∀ j: (Result + 1) |..| min (arg_num1, arg_num2) ¦ not divides_both (j, abs (arg_num1), abs (arg_num2), bn))
 		end
 
 end

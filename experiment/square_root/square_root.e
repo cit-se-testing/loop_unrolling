@@ -26,8 +26,8 @@ feature
 				x2 := n
 				x1 := 0
 
-			-- invariant
-			--	valid_result: (x1 = x2 and x1 * x1 = n) or (x1 < x2 and x1 * x1 < n and x2 * x2 >= n)
+			invariant
+				valid_result: (x1 = x2 and x1 * x1 = n) or (x1 < x2 and x1 * x1 < n and x2 * x2 >= n)
 			until
 				x2 - x1 = 1 or x1 = x2 -- x2 - x1 <= 1
 			loop
@@ -43,13 +43,12 @@ feature
 						x2 := mid
 					end
 				end
-			-- variant
-			--	x2 - x1
+			variant
+				x2 - x1
 			end
-			-- print ("iteration" + index.out + "%N")
 			Result := [x1, x2]
-		-- ensure
-		--	valid_result: (Result.root1 = Result.root2 and Result.root1 * Result.root1 = n) or (Result.root1 + 1 = Result.root2 and Result.root1 * Result.root1 < n and Result.root2 * Result.root2 >= n)
+		 ensure
+			valid_result: (Result.root1 = Result.root2 and Result.root1 * Result.root1 = n) or (Result.root1 + 1 = Result.root2 and Result.root1 * Result.root1 < n and Result.root2 * Result.root2 >= n)
 		end
 
 end

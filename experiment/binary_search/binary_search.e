@@ -39,12 +39,12 @@ feature
 
 			from
 				i := 1; j := n + 1
-					-- invariant
-					-- 	index_range: 1 <= i and i <= j and j <= n + 1
-					--	result_range: 0 <= Result and Result <= n
-					--	not_in_lower_part: across 1 |..| (i - 1) as u all t.sequence [u] < x end
-					--	not_in_upper_part: across j |..| n as u all x < t.sequence [u] end
-					--	found_if_present: (Result >= 1 and Result <= n) implies (t.sequence [Result] = x)
+					 invariant
+					 	index_range: 1 <= i and i <= j and j <= n + 1
+						result_range: 0 <= Result and Result <= n
+						not_in_lower_part: across 1 |..| (i - 1) as u all t.sequence [u] < x end
+						not_in_upper_part: across j |..| n as u all x < t.sequence [u] end
+						found_if_present: (Result >= 1 and Result <= n) implies (t.sequence [Result] = x)
 			until
 				i >= j or Result > 0
 			loop
@@ -58,14 +58,13 @@ feature
 				else -- branch3
 					Result := m
 				end
-					-- variant
-					-- 	(n - Result) + (j - i)
+					variant
+						(n - Result) + (j - i)
 			end
-			-- print ("iteration" + index.out + "%N")
-				-- ensure
-				--	present: t.sequence.has (x) = (Result >= 1 and Result <= t.count)
-				--	not_present: not t.sequence.has (x) = (Result = 0)
-				--	found_if_present: (Result >= 1 and Result <= t.count) implies (t.sequence [Result] = x)
+				 ensure
+					present: t.sequence.has (x) = (Result >= 1 and Result <= t.count)
+					not_present: not t.sequence.has (x) = (Result = 0)
+					found_if_present: (Result >= 1 and Result <= t.count) implies (t.sequence [Result] = x)
 		end
 
 end
