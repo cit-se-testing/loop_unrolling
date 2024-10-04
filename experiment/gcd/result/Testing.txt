@@ -1,0 +1,20 @@
+Executing 10 tests
+
+test_gcd_abs_1 (FAILED_TESTS): pass
+test_gcd_divides_both_1 (FAILED_TESTS): pass
+test_gcd_min_1 (FAILED_TESTS): pass
+test_gcd_max_1 (FAILED_TESTS): pass
+test_gcd (FAILED_TESTS): FAIL (num1 - i)
+	on_prepare: ok
+	test routine: exceptional (Loop variant violation in GCD.gcd)
+	on_clean: ok
+test_gcd_gcd_1 (FAILED_TESTS): pass
+test_gcd_gcd_2 (FAILED_TESTS): FAIL (num1 - i)
+	on_prepare: ok
+	test routine: exceptional (Loop variant violation in GCD.gcd)
+	on_clean: ok
+test_gcd_gcd_3 (FAILED_TESTS): pass
+test_gcd_gcd_4 (FAILED_TESTS): pass
+test_gcd_div_1 (FAILED_TESTS): pass
+
+Execution complete

@@ -1,0 +1,34 @@
+iteration10: [10 valid_result],[18 valid_result],[28 a_n - l_c],[4 valid_result],[9 lower_bound],[2 valid_result],[6 valid_result],[30 a_n - l_c],[22 valid_result],[25 a_n - l_c],[8 valid_result],[29 a_n - l_c],[14 valid_result],[32 a_n - l_c],[5 lower_bound],[16 valid_result],[27 a_n - l_c],
+
+iteration9: [30 a_n - l_c],[18 valid_result],[4 valid_result],[9 lower_bound],[2 valid_result],[29 a_n - l_c],[6 valid_result],[5 lower_bound],[22 valid_result],[10 valid_result],[8 valid_result],[14 valid_result],[25 a_n - l_c],[32 a_n - l_c],[28 a_n - l_c],[16 valid_result],[27 a_n - l_c],
+
+iteration13: [18 valid_result],[4 valid_result],[9 lower_bound],[27 a_n - l_c],[2 valid_result],[20 valid_result],[6 valid_result],[30 a_n - l_c],[25 a_n - l_c],[22 valid_result],[10 valid_result],[8 valid_result],[14 valid_result],[29 a_n - l_c],[28 a_n - l_c],[16 valid_result],[5 lower_bound],
+
+iteration8: [27 a_n - l_c],[18 valid_result],[4 valid_result],[9 lower_bound],[2 valid_result],[6 valid_result],[5 lower_bound],[22 valid_result],[10 valid_result],[28 a_n - l_c],[8 valid_result],[14 valid_result],[25 a_n - l_c],[32 a_n - l_c],[29 a_n - l_c],[16 valid_result],[30 a_n - l_c],
+
+iteration3: [8 valid_result],[30 a_n - l_c],[32 a_n - l_c],[10 valid_result],[14 valid_result],[4 valid_result],[9 lower_bound],[25 a_n - l_c],[28 a_n - l_c],[16 valid_result],[18 valid_result],[22 valid_result],[27 a_n - l_c],[2 valid_result],[6 valid_result],[29 a_n - l_c],[5 lower_bound],
+
+iteration4: [8 valid_result],[27 a_n - l_c],[30 a_n - l_c],[32 a_n - l_c],[10 valid_result],[14 valid_result],[5 lower_bound],[9 lower_bound],[25 a_n - l_c],[28 a_n - l_c],[16 valid_result],[18 valid_result],[22 valid_result],[2 valid_result],[4 valid_result],[29 a_n - l_c],[6 valid_result],
+
+iteration5: [8 valid_result],[27 a_n - l_c],[30 a_n - l_c],[10 valid_result],[14 valid_result],[4 valid_result],[9 lower_bound],[32 a_n - l_c],[25 a_n - l_c],[28 a_n - l_c],[16 valid_result],[18 valid_result],[22 valid_result],[2 valid_result],[29 a_n - l_c],[6 valid_result],[5 lower_bound],
+
+iteration6: [8 valid_result],[25 a_n - l_c],[27 a_n - l_c],[6 valid_result],[30 a_n - l_c],[10 valid_result],[14 valid_result],[4 valid_result],[9 lower_bound],[32 a_n - l_c],[28 a_n - l_c],[16 valid_result],[18 valid_result],[22 valid_result],[2 valid_result],[29 a_n - l_c],[5 lower_bound],
+
+iteration7: [8 valid_result],[25 a_n - l_c],[30 a_n - l_c],[32 a_n - l_c],[10 valid_result],[28 a_n - l_c],[14 valid_result],[4 valid_result],[9 lower_bound],[5 lower_bound],[16 valid_result],[22 valid_result],[27 a_n - l_c],[2 valid_result],[29 a_n - l_c],[6 valid_result],[18 valid_result],
+
+iteration10: [18 valid_result],[29 a_n - l_c],[4 valid_result],[9 lower_bound],[2 valid_result],[6 valid_result],[30 a_n - l_c],[22 valid_result],[25 a_n - l_c],[10 valid_result],[28 a_n - l_c],[8 valid_result],[5 lower_bound],[14 valid_result],[32 a_n - l_c],[16 valid_result],[27 a_n - l_c],
+
+iteration15: [18 valid_result],[9 lower_bound],[28 a_n - l_c],[2 valid_result],[20 valid_result],[4 valid_result],[30 a_n - l_c],[22 valid_result],[25 a_n - l_c],[10 valid_result],[8 valid_result],[14 valid_result],[6 valid_result],[16 valid_result],[5 lower_bound],[27 a_n - l_c],[29 a_n - l_c],
+
+iteration1: [25 a_n - l_c],[6 valid_result],[30 a_n - l_c],[32 a_n - l_c],[14 valid_result],[28 a_n - l_c],[16 valid_result],[27 a_n - l_c],[29 a_n - l_c],[5 lower_bound],
+
+iteration1: [6 valid_result],[30 a_n - l_c],[32 a_n - l_c],[14 valid_result],[25 a_n - l_c],[5 lower_bound],[28 a_n - l_c],[16 valid_result],[27 a_n - l_c],[29 a_n - l_c],
+
+iteration1: [30 a_n - l_c],[32 a_n - l_c],[14 valid_result],[27 a_n - l_c],[25 a_n - l_c],[28 a_n - l_c],[16 valid_result],[29 a_n - l_c],[6 valid_result],[5 lower_bound],
+
+iteration12: [4 valid_result],[9 lower_bound],[2 valid_result],[20 valid_result],[6 valid_result],[30 a_n - l_c],[22 valid_result],[25 a_n - l_c],[10 valid_result],[8 valid_result],[14 valid_result],[18 valid_result],[28 a_n - l_c],[5 lower_bound],[16 valid_result],[27 a_n - l_c],[29 a_n - l_c],
+
+iteration13: [4 valid_result],[9 lower_bound],[2 valid_result],[20 valid_result],[6 valid_result],[30 a_n - l_c],[16 valid_result],[5 lower_bound],[22 valid_result],[25 a_n - l_c],[10 valid_result],[8 valid_result],[14 valid_result],[18 valid_result],[28 a_n - l_c],[27 a_n - l_c],[29 a_n - l_c],
+
+iteration0: [33 a_n - l_c],[23 a_n - l_c],[32 a_n - l_c],[12 valid_result],
+

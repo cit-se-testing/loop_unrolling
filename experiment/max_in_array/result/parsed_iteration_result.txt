@@ -1,0 +1,30 @@
+iteration3 21 15
+
+iteration2 21 14
+
+iteration6 19 15
+
+iteration7 21 14
+
+iteration8 18 14
+
+iteration1 21 14
+
+iteration4 21 13
+
+iteration5 21 15
+
+iteration15 21 14
+
+iteration9 20 15
+
+iteration10 18 13
+
+iteration11 20 15
+
+iteration12 18 15
+
+iteration13 21 15
+
+iteration14 19 15
+

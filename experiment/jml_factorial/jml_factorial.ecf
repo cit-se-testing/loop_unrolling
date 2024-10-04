@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<system xmlns="http://www.eiffel.com/developers/xml/configuration-1-16-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-16-0 http://www.eiffel.com/developers/xml/configuration-1-16-0.xsd" name="jml_factorial" uuid="C10C9441-8193-46BA-85E9-D0A6680568FD">
+	<target name="jml_factorial">
+		<root feature="make" class="APPLICATION"/>
+		<file_rule>
+			<exclude>/\.git$</exclude>
+			<exclude>/\.svn$</exclude>
+			<exclude>/CVS$</exclude>
+			<exclude>/EIFGENs$</exclude>
+		</file_rule>
+		<option warning="true">
+			<assertions precondition="true" postcondition="true" check="true" invariant="true" loop="true" supplier_precondition="true"/>
+		</option>
+		<setting name="console_application" value="true"/>
+        <library name="base" location="$AP\library\base\base-scoop-safe.ecf" readonly="false"/>
+        <library name="testing" location="$ISE_EIFFEL\library\testing\testing_ap.ecf"/>
+		<cluster name="jml_factorial" location=".\" recursive="true"/>
+	</target>
+</system>
