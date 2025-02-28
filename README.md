@@ -1,4 +1,7 @@
+
 # Test generation with loop unrolling
+
+<p align="center">This text is centered!</p>
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
