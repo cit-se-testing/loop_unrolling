@@ -1,10 +1,10 @@
 
 # Test generation with loop unrolling
 
-<p align="center">This text is centered!</p>
+<p align="center">Test generation time with different unrolling levels (seconds)</p>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Example        | 1           | 2  | 3 | 4 |5 |6 |7 |8 |9 |10 |11 |12 |13 |14 |15 |
+| ------------- |:-------------:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
+| col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | 
+| col 2 is      | centered      |   $12 |col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | 
+| zebra stripes | are neat      |    $1 |col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | col 3 is      | right-aligned | $1600 | 
