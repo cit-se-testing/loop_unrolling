@@ -62,7 +62,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 
 <br><br>
 
-<p align="center">Table 3. Number of Detected Faults Per Run with Different Unrolling Levels (Seconds)</p>
+<p align="center">Table 3. Number of Detected Faults Per Run with Different Unrolling Levels </p>
 
 | Example        | 1   | 2     | 3     | 4     |5      |6      |7      |8      | 9     |10     |11     |12     |13     |14     |15     |
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
@@ -78,18 +78,18 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 9    |9.5   |10    |10    |12    |12    |12    |12    |12    |12    |12    | 12    | 12   | 12   | 12   |
 |  [DIVIDE](../main/experiment/divide/divide.e)      | 10.5 | 11.5 | 11.5 | 11.5 | 12   | 12   | 12   | 12   | 12   | 12   | 12   |12     | 12   | 12   | 12   |
 |  [INVERSE](../main/experiment/inverse/inverse.e)   | 19.75| 19.95| 20   |20.1  | 20.2 | 20.2 | 20.3 | 20.5 | 20.6 | 20.6 | 20.6 | 20.6 |20.8| 20.8 | 20.9 |
-|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | 0.91  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
-|  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | -- | 0.20  |0.29   |0.45   |0.66   |0.99   |1.56   |2.12   |2.70   |3.65   |4.89   |6.45   |9.00   |16.05  |  16.19| 
-|  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | --  | 0.18  |0.28   |0.44   |0.66   |1.04   |1.53   |2.25   |3.15   |4.76   |6.22   |9.95   |13.02  |17.29  |  22.39| 
-|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | -- | 0.39  |0.93   |1.86   |3.95   |8.50   |16.69  |50.74  |98.00  |363.27 |361.65 |–      |–      |–      |      –| 
-|  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | --   | 0.63  |0.80   |0.77   |0.99   |1.33   |1.46   |1.96   |2.77   |7.05   |–      |–      |–      |–      |      –| 
-|  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | -- | 0.14  |0.17   |0.22   |0.28   |0.38   |0.51   |0.73   |0.91   |1.16   |1.47   |1.86   |2.30   |2.82   |  3.33 | 
-|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | --  | 0.65  |3.50   |18.00  |73.78  |384.48 |-      |1414.92|-      |-   |–      |–      |–      |–      |      –| 
-|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      | --  | 0.62  |2.72   |8.53   |23.19  |57.28  |138.76 |422.77 |-      |-   |–      |–      |–      |–      |      –| 
+|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | --  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
+|  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 48 | 52  |53   |53.75   |54.4   |54.75   |54.85   |54.95   |55   |55   |55  |55   |55   |55  |  55| 
+|  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 24.95  | 25.45  |26.5   | 26.8   | 27.6   | 27.8   | 27.9   | 27.9   | 28   | 28   | 28.1  | 28.35   | 28.55  |28.55  |  28.75| 
+|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 65 | 69.35  |71.6   | 73.1   | 74.3   | 74.55   | 75.35  | 75.65  | 75.75  | 75.9 |75.95 |–      |–      |–      |      –| 
+|  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | 9.2   | 18.45  |18.8   |18.8   |19.65   |20.35   |20.85   |22.1   |22.95   |23.8   |24.1      |24.45      |24.95      |25.25     |      25.3| 
+|  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | 35.7 | 38.85  | 40.95  | 41.8   | 42.05   | 42.3   | 42.4   |42.45   |42.6   | 42.75   |42.75   |42.75   |42.8   |42.8   |  42.8 | 
+|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 41  | 59.6  | 66.7   | 71.05  | 72.5  | 109.5 | 109.85  |110.05 |-      |-   |–      |–      |–      |–      |      –| 
+|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      | 55  | 55  | 57.3   | 58.35   | 60.65  | 61.55 | 63.1 | 63.35 |-      |-   |–      |–      |–      |–      |      –| 
 
 <br><br>
 
-<p align="center">Table 3. Number of Detected Faults Over All 20 Runs with Different Unrolling Levels (Seconds)</p>
+<p align="center">Table 3. Number of Detected Faults Over All 20 Runs with Different Unrolling Levels </p>
 
 | Example        | 1   | 2     | 3     | 4     |5      |6      |7      |8      | 9     |10     |11     |12     |13     |14     |15     |
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
@@ -105,12 +105,12 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14 14   | 14 |
 |  [DIVIDE](../main/experiment/divide/divide.e)       | 11 | 12   | 12 | 12    | 12    | 12    | 12    | 12    | 12    | 12    | 12 |12  | 12 12   | 12 |
 |  [INVERSE](../main/experiment/inverse/inverse.e)    | 20 |22    |22  | 22    | 22    | 22    | 22    | 22    | 22    | 22    | 22 |22  | 22 22   | 22 |
-|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | 0.91  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
-|  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | -- | 0.20  |0.29   |0.45   |0.66   |0.99   |1.56   |2.12   |2.70   |3.65   |4.89   |6.45   |9.00   |16.05  |  16.19| 
-|  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | --  | 0.18  |0.28   |0.44   |0.66   |1.04   |1.53   |2.25   |3.15   |4.76   |6.22   |9.95   |13.02  |17.29  |  22.39| 
-|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | -- | 0.39  |0.93   |1.86   |3.95   |8.50   |16.69  |50.74  |98.00  |363.27 |361.65 |–      |–      |–      |      –| 
-|  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | --   | 0.63  |0.80   |0.77   |0.99   |1.33   |1.46   |1.96   |2.77   |7.05   |–      |–      |–      |–      |      –| 
-|  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | -- | 0.14  |0.17   |0.22   |0.28   |0.38   |0.51   |0.73   |0.91   |1.16   |1.47   |1.86   |2.30   |2.82   |  3.33 | 
-|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | --  | 0.65  |3.50   |18.00  |73.78  |384.48 |-      |1414.92|-      |-   |–      |–      |–      |–      |      –| 
-|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      | --  | 0.62  |2.72   |8.53   |23.19  |57.28  |138.76 |422.77 |-      |-   |–      |–      |–      |–      |      –| 
+|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | --  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
+|  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 48 | 54  | 55   | 55   | 55   | 55   | 55   | 55   |55   |55   |55   | 55   |55   |55  |  55| 
+|  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 25  | 27  |29   |29   |29   |29   |29   |29   |29   |29   |29   |29   |30  |30  |  30| 
+|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 65 | 72  | 76   |76   |76   | 76   |76  | 76  |76   | 76 | 76 |–      |–      |–      |      –| 
+|  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | 12   | 19  | 19   | 19   |22   |26   |26   |26   |26   |26   | 26      |26      |26      |26      |     26 | 
+|  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | 37 | 41  |43   |43   |43   | 45   | 45   | 45   | 45   | 45  | 45   | 45  | 45   | 45  |  45 | 
+|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 41  | 72  | 76   | 76  | 76  | 113 | 113      |113  |-      |-   |–      |–      |–      |–      |      –| 
+|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      | 55  | 55  |65   |66   | 68  |68  |72 |72 |-      |-   |–      |–      |–      |–      |      –| 
 
