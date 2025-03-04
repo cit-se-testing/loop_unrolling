@@ -26,7 +26,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 0.20 | 0.39  |0.93   |1.86   |3.95   |8.50   |16.69  |50.74  |98.00  |363.27 |361.65 |–      |–      |–      |      –| 
 |  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | 0.10   | 0.17  |0.32   |0.60   |  1.16 |1.88   |2.57   |5.09   |7.79   |13.94   |22.28      |32.99      |41.26      |70.59      |      128.96| 
 |  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | 0.11 | 0.14  |0.17   |0.22   |0.28   |0.38   |0.51   |0.73   |0.91   |1.16   |1.47   |1.86   |2.30   |2.82   |  3.33 | 
-|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 0.17  | 0.65  |3.50   |18.00  |73.78  |384.48 |-      |1414.92|-      |-   |–      |–      |–      |–      |      –| 
+|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 0.17  | 0.65  |3.50   |18.00  |73.78  |384.48 |1267.07     |1414.92|-      |-   |–      |–      |–      |–      |      –| 
 |  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      | 0.14  | 0.62  |2.72   |8.53   |23.19  |57.28  |138.76 |422.77 |-      |-   |–      |–      |–      |–      |      –| 
 
 
