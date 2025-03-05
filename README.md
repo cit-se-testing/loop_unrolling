@@ -78,7 +78,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 9    |9.5   |10    |10    |12    |12    |12    |12    |12    |12    |12    | 12    | 12   | 12   | 12   |
 |  [DIVIDE](../main/experiment/divide/divide.e)      | 10.5 | 11.5 | 11.5 | 11.5 | 12   | 12   | 12   | 12   | 12   | 12   | 12   |12     | 12   | 12   | 12   |
 |  [INVERSE](../main/experiment/inverse/inverse.e)   | 19.75| 19.95| 20   |20.1  | 20.2 | 20.2 | 20.3 | 20.5 | 20.6 | 20.6 | 20.6 | 20.6 |20.8| 20.8 | 20.9 |
-|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | --  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
+|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | 86.2 | 86.2  | 86.2  |86.2 | 86.2|86.45     |86.45      |-      |-      |-      |–      |–      |–      |–      |      –| 
 |  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 48 | 52  |53   |53.75   |54.4   |54.75   |54.85   |54.95   |55   |55   |55  |55   |55   |55  |  55| 
 |  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 24.95  | 25.45  |26.5   | 26.8   | 27.6   | 27.8   | 27.9   | 27.9   | 28   | 28   | 28.1  | 28.35   | 28.55  |28.55  |  28.75| 
 |  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 65 | 69.35  |71.6   | 73.1   | 74.3   | 74.55   | 75.35  | 75.65  | 75.75  | 75.9 |75.95 |–      |–      |–      |      –| 
@@ -105,7 +105,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14 14   | 14 |
 |  [DIVIDE](../main/experiment/divide/divide.e)       | 11 | 12   | 12 | 12    | 12    | 12    | 12    | 12    | 12    | 12    | 12 |12  | 12 12   | 12 |
 |  [INVERSE](../main/experiment/inverse/inverse.e)    | 20 |22    |22  | 22    | 22    | 22    | 22    | 22    | 22    | 22    | 22 |22  | 22 22   | 22 |
-|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | -- | --  | 6.27  | 27.63 | 115.48|-      |-      |-      |-      |-      |–      |–      |–      |–      |      –| 
+|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | 88 | 88  | 88  | 88 | 88 | 88      | 88       | 88      |-      |-      |–      |–      |–      |–      |      –| 
 |  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 48 | 54  | 55   | 55   | 55   | 55   | 55   | 55   |55   |55   |55   | 55   |55   |55  |  55| 
 |  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 25  | 27  |29   |29   |29   |29   |29   |29   |29   |29   |29   |29   |30  |30  |  30| 
 |  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 65 | 72  | 76   |76   |76   | 76   |76  | 76  |76   | 76 | 76 |–      |–      |–      |      –| 
