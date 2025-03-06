@@ -89,7 +89,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 
 <br><br>
 
-<p align="center">Table 3. Number of Detected Faults Over All 20 Runs with Different Unrolling Levels </p>
+<p align="center">Table 4. Number of Detected Faults Over All 20 Runs with Different Unrolling Levels </p>
 
 | Example        | 1   | 2     | 3     | 4     |5      |6      |7      |8      | 9     |10     |11     |12     |13     |14     |15     |
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
