@@ -72,7 +72,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)          | 10  | 17   | 17    | 17    | 17    | 17    | 17    | 17     | 17   | 17 18   | 18  |18  | 18 |  18|
 |  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13   | 19   | 19.8  | 19.9  | 19.95 | 20    | 20    |20      | 35.65   |  36.55 | 36.85   | 36.9  | 36.9  | 36.9   | 37.35  |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)    | 8.1 |13.35 | 13.55 | 14.25 | 15.1  | 16.45 | 16.5  | 16.65  |16.85 | 17.25  | 17.4| 17.8| 17.85| 18.15| 18.15|
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)    | 22  | 22   | --     |22     |22     |22     |22     |22.55   | --  | 22.55 | -- | 22.55 | 22.55 | 22.55 | -- |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)    | 22  | 22   | 22     |22     |22     |22     |22     |22.55   | 22.55  | 22.55 | 22.55 | 22.55 | 22.55 | 22.55 | 22.55 |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)|13 |13    |13     |13     | 13    | 13    | 13    |13      | 13   |13   | 13    | 13 |  13| 13 |13   |
 |  [ADD](../main/experiment/add/add.e) |  8   | 8    | 8    |8     | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    |   8    |   
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 9    |9.5   |10    |10    |12    |12    |12    |12    |12    |12    |12    | 12    | 12   | 12   | 12   |
