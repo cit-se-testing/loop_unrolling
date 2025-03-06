@@ -50,14 +50,14 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 0.0091 | 0.0182 | 0.0275 | 0.0366 | 0.0460 | 0.0554 | 0.0644 | 0.0731 | 0.0820|0.0911 | 0.1009 | 0.1102 | 0.1194 | 0.1284| 0.1374|
 |  [DIVIDE](../main/experiment/divide/divide.e)       | 0.0082 | 0.0163 | 0.0242 | 0.0322 | 0.0401 | 0.0483 | 0.0565 | 0.0646 | 0.0729 | 0.0813 | 0.0894 | 0.0977 | 0.1061 | 0.1143 |  0.1226 |
 |  [INVERSE](../main/experiment/inverse/inverse.e)      | 0.0079 | 0.0157 | 0.0233 | 0.0309 | 0.0388 | 0.0468 |0.0547 | 0.0628 | 0.0708 |  0.0788 | 0.0866 | 0.0947 | 0.1025 | 0.1104 | 0.1187|
-|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | 0.0078 | 0.0161 | 0.0250  | 0.0335 |  0.0418 | 0.0505 |0.0583 | 0.0761|-      |-      |–      |–      |–      |–      |      –| 
+|  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | 0.0078 | 0.0161 | 0.0250  | 0.0335 |  0.0418 | 0.0505 |0.0583 | 0.0761|--      |--      |--      |--     |--      |--     | --     | 
 |  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 0.0087 | 0.0181  | 0.0263  |0.04   | 0.0495   |0.0591   | 0.0673  |0.0757   |0.0856   |0.0948   |0.1034  |0.1128   |0.1240   |0.1316 |  0.1428| 
 |  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 0.0075  | 0.0153  |0.0241  |0.0319   |0.0404   |0.0477   |0.0555  |0.0631   | 0.0721   | 0.08   |0.0885   |0.0963   |0.1054  |0.1132  |  0.1213| 
-|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 0.0093 | 0.0179  | 0.0267   | 0.0362   | 0.0448   |0.0528   | 0.0611  | 0.0706  | 0.0801  | 0.0976| -    |–      |–      |–      |      –| 
+|  [DUTCH_FLAG](../main/experiment/dutch_flag/dutch_flag.e)   | 0.0093 | 0.0179  | 0.0267   | 0.0362   | 0.0448   |0.0528   | 0.0611  | 0.0706  | 0.0801  | 0.0976| --    | --      | --      | --      | --     | 
 |  [GNOME_SORT](../main/experiment/gnome_sort/gnome_sort.e)   | 0.0072  | 0.0144  | 0.0221   | 0.0294   | 0.0365   | 0.0448   |0.0529   |0.0617   |0.069   |0.0782   |0.088     |0.0984      |0.1078      |0.122      |     0.1323 | 
 |  [TWO_WAY_MAX](../main/experiment/two_way_max/two_way_max.e)  | 0.008 | 0.0157  |0.0241  |0.0319   |0.0396   |0.0491   |0.058  |0.0671   |0.0761   |0.0847   |0.0938   |0.1037  |0.1124   |0.1214   |  0.1301 | 
-|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 0.012  | 0.0193  |0.033   |0.0406  |0.0532  | 0.0641 | 0.0792      | 0.0883 |-      |-   |–      |–      |–      |–      |      –| 
-|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      |0.0082  | 0.0164  |0.0234   |0.0298   |0.0381  |0.0466  |0.0548 |0.0632 |-      |-   |–      |–      |–      |–      |      –| 
+|  [SELECTION_SORT](../main/experiment/selection_sort/selection_sort.e)      | 0.012  | 0.0193  |0.033   |0.0406  |0.0532  | 0.0641 | 0.0792      | 0.0883 |--      |--      |--      |--      |--      |--      | -- | 
+|  [INSERTION_SORT](../main/experiment/insertion_sort/insertion_sort.e)      |0.0082  | 0.0164  |0.0234   |0.0298   |0.0381  |0.0466  |0.0548 |0.0632 |--      |--   |--      |--      |--      |--      |--    | 
 
 
 <br><br>
@@ -99,7 +99,7 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)    | 10  | 17 | 17    | 17    | 17    | 17    | 17    | 17    | 17    | 17    |    18 | 18 | 18 | 18 | 18 |
 |  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13  |19     | 20    | 20    | 20    | 20    | 20    | 20    |    37 |  37 |  37 |  37 |  37 |  37 |  39 |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)  | 9    | 16    | 16    | 20    | 20    | 22    | 22    | 22    | 22    | 22  | 22    | 22 | 22 | 22 |  22 |
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 22   | 22    | --    | 22    | 22    | 22    | 22    | 23    | -- | 23 | -- | 23 | 23 | 23 | -- |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 22   | 22    | 22    | 22    | 22    | 22    | 22    | 23    | 23 | 23 | 23 | 23 | 23 | 23 | 23 |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)   | 13    | 13    | 13    | 13    | 13    | 13    | 13    | 13 | 13 | 13 13   |13  | 13 | 13  | 13 | 
 |  [ADD](../main/experiment/add/add.e) | 8   | 8     | 8   | 8    | 8  | 8     |  8    | 8     | 8     | 8     | 8     | 8     | 8  |  8 | 8  |
 |  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14 14   | 14 |
