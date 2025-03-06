@@ -10,11 +10,11 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
 | [BINARY_SEARCH](../main/experiment/binary_search/binary_search.e) | 0.95 | 0.63  |0.80   |0.77   |0.99   |1.33   |1.46   |1.96   |2.77   |7.05   |–      |–      |–      |–      |      –| 
 |  [MAX_IN_ARRAY](../main/experiment/max_in_array/max_in_array.e) | 0.18 |0.22   |0.34   |0.38   |0.59   |0.67   |0.90   |1.06   |1.32   |1.70   |2.11   |2.48   |2.94   | 3.36  |5.54   |
-|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)  | 0.10 |0.21   |0.30   | 0.53  | 0.53  |1.16   | 1.67  | 2.97  | 3.85  | 6.41  | –     | –     | –     | –     | –     |
+|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)  | 0.10 |0.21   |0.30   | 0.53  | 0.53  |1.16   | 1.67  | 2.97  | 3.85  | 6.41  | 22.50    | 101.96     | 264.50  | –     | –     |
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)    | 0.38 |0.10   |0.11   |0.13   | 0.13  | 0.15  | 0.16  | 0.19  | 0.21  | 0.24  | 0.27  | 0.30  | 0.33  | 0.35  | 0.40  | 
-|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)       |0.09   | 0.11  | 0.18  | 0.39  | 0.61  | 0.90  | 1.70  | 4.27  | –     | –     | –     |–      |–    |–    | –   |
+|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)       |0.09   | 0.11  | 0.18  | 0.39  | 0.61  | 0.90  | 1.70  | 4.27  | 4.55   | 4.99   | 5.37    |14.15     |14.97    |16.46    | 22.98   |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)  | 0.18 | 0.32  | 0.40  | 0.50  | 0.68  | 0.86  | 1.10  | 1.50  | 1.90  | 2.46  | 2.90  | 3.53  | 3.80  |4.59   | 6.33  |
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 0.68 | 0.10  | 0.12  | 0.14  | 0.19  | 0.21  | 0.26  | 0.46  | –     |–      |–      |–      | –     |–      | –     |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 0.68 | 0.10  | 0.12  | 0.14  | 0.19  | 0.21  | 0.26  | 0.46  | 1.05     |–      | 1.80     |–      | 2.17     | 2.73  | –     |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)|0.13  |0.12   |0.16   |0.17   | 0.19  | 0.19  | 0.22  | 0.25  | 0.26  | 0.30  | 0.28  | 0.38  | 0.31  | 0.38  | 0.35  |
 |  [ADD](../main/experiment/add/add.e)          | 0.08 | 0.11  | 0.13  | 0.16  | 0.17  | 0.19  | 0.21  |0.25   | 0.27  | 0.29  | 0.34  | 0.36  | 0.40  | 0.42  | 0.46  |
 |  [MUTIPLY](../main/experiment/multiply/multiply.e)      | 0.09 | 0.10  | 0.12  | 0.14  | 0.16  | 0.19  | 0.21  | 0.24  | 0.26  | 0.29  | 0.33  | 0.37  | 0.37  | 0.45  | 0.45  |
@@ -40,11 +40,11 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
 | [BINARY_SEARCH](../main/experiment/binary_search/binary_search.e) | 0.0903 |  0.1257 | 0.1345 |0.1432| 0.1533 | 0.1883 | 0.2402 | 0.4367 |  1.0403 | 3.0449 | -- | -- | -- | -- | --|
 |  [MAX_IN_ARRAY](../main/experiment/max_in_array/max_in_array.e) |  0.0077 | 0.0154 | 0.0230 | 0.0307 | 0.0385 | 0.0466 | 0.0548 | 0.0625 | 0.0703 | 0.0783 | 0.0858 | 0.0933 | 0.1008 | 0.1087 |0.1166 |
-|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)  | 0.0072 | 0.0145 | 0.0218 | 0.0288 | 0.0360 | 0.0431 | 0.0503 | 0.0574 | 0.0646 | 0.0717 | -- | -- | -- | -- | -- |
+|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)  | 0.0072 | 0.0145 | 0.0218 | 0.0288 | 0.0360 | 0.0431 | 0.0503 | 0.0574 | 0.0646 | 0.0717 | 0.0799 | 0.087 | 0.0949 | -- | -- |
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)    | 5.9851 | 9.5511 | 13.0557 | 16.6501 | 20.1588 | 23.7225 | 27.2596 | 30.8715 | 34.4585 | 38.1389 | 41.7846 | 45.3159 | 48.9402 | 52.5787 | 56.2203 |
-|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)   |0.0074 | 0.0147 | 0.0221 | 0.0294 | 0.0369 | 0.0443 | 0.0517 | 0.0591 | -- | -- | -- | -- | -- | -- | -- |
+|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)   |0.0074 | 0.0147 | 0.0221 | 0.0294 | 0.0369 | 0.0443 | 0.0517 | 0.0591 | 0.0652 | 0.0717 | 0.0812 | 0.0915 | 0.1064 | 0.1141 | 0.1215 |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)  | 0.0074 | 0.0149 | 0.0222 | 0.0296 | 0.0368 | 0.0443 | 0.0519 | 0.0595 | 0.0671 | 0.0746 | 0.0822 | 0.0899 | 0.0975 | 0.1052 | 0.1128 |
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 0.0078 | 0.0158 | 0.0158 |  0.0236 | 0.0316  | 0.0394 | 0.0477 | 0.0557 | -- | -- | -- | -- | -- | -- | -- |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 0.0078 |  0.0158 | -- |  0.0236 | 0.0316  | 0.0394 | 0.0477 | 0.0557 | -- | 0.0649 | -- | 0.0724 | 0.0802 | 0.0885 | -- |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)| 0.0081 | 0.0164 | 0.0247 | 0.0331 | 0.0413 | 0.0497 | 0.0580 | 0.0665 | 0.0748 |  0.0832 | 0.0914 | 0.0999 | 0.1084 | 0.1170 | 0.1254 |
 |  [ADD](../main/experiment/add/add.e) | 0.0074 | 0.0149 | 0.0226 | 0.0305 | 0.0381 | 0.0458 | 0.0533 | 0.0614 | 0.0689 | 0.0765 | 0.0842 | 0.0922 | 0.1002 | 0.1078 |  0.1161 |
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 0.0091 | 0.0182 | 0.0275 | 0.0366 | 0.0460 | 0.0554 | 0.0644 | 0.0731 | 0.0820|0.0911 | 0.1009 | 0.1102 | 0.1194 | 0.1284| 0.1374|
@@ -68,11 +68,11 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
 | [BINARY_SEARCH](../main/experiment/binary_search/binary_search.e)    | 25.5  | 31.7  | 35.55 | 38.1  |39.15  | 39.95 | 41.05 | 41.8  | 42.25 | 42.8  | -- | -- | -- | -- | --|
 |  [MAX_IN_ARRAY](../main/experiment/max_in_array/max_in_array.e) | 4.9 | 5.25 | 5.45  | 5.45  | 5.5   | 5.5   | 5.55  | 5.55  | 5.55  | 5.6 | 5.65 | 5.7 | 5.8 | 5.8 | 5.8 |
-|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)    |16   | 18   | 18.85 | 18.95 | 18.95 | 18.95 | 18.95 | 18.95  |19    | 19  | -- | --  | -- | -- | -- |
+|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)    |16   | 18   | 18.85 | 18.95 | 18.95 | 18.95 | 18.95 | 18.95  |19    | 19  | 19.3 | 19.45  | 19.6 | -- | -- |
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)          | 10  | 17   | 17    | 17    | 17    | 17    | 17    | 17     | 17   | 17 18   | 18  |18  | 18 |  18|
-|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13   | 19   | 19.8  | 19.9  | 19.95 | 20    | 20    |20      | --   |  -- | --   | --  | --  | --   | --   |
+|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13   | 19   | 19.8  | 19.9  | 19.95 | 20    | 20    |20      | 35.65   |  36.55 | 36.85   | 36.9  | 36.9  | 36.9   | 37.35  |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)    | 8.1 |13.35 | 13.55 | 14.25 | 15.1  | 16.45 | 16.5  | 16.65  |16.85 | 17.25  | 17.4| 17.8| 17.85| 18.15| 18.15|
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)    | 22  | 22   |22     |22     |22     |22     |22     |22.55   | --   | -- | -- | -- | -- | -- | -- |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)    | 22  | 22   | --     |22     |22     |22     |22     |22.55   | --  | 22.55 | -- | 22.55 | 22.55 | 22.55 | -- |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)|13 |13    |13     |13     | 13    | 13    | 13    |13      | 13   |13   | 13    | 13 |  13| 13 |13   |
 |  [ADD](../main/experiment/add/add.e) |  8   | 8    | 8    |8     | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    | 8    |   8    |   
 |  [MUTIPLY](../main/experiment/multiply/multiply.e) | 9    |9.5   |10    |10    |12    |12    |12    |12    |12    |12    |12    | 12    | 12   | 12   | 12   |
@@ -95,11 +95,11 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 | ------------- |-----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| -----:| 
 | [BINARY_SEARCH](../main/experiment/binary_search/binary_search.e)    | 34    | 51    |  59   | 64    | 69    | 71    | 72    | 74    |    74 | 74  | --  | -- | -- | -- | --|
 |  [MAX_IN_ARRAY](../main/experiment/max_in_array/max_in_array.e) |  5 | 6     | 6     | 6     | 6     | 6     | 6     | 6     | 6     |     6  | 6   | 6   | 6  | 6  | 6  |
-|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)    |16  | 19    | 19    | 19    | 19    | 19    | 19    | 19    | 19    |    19 | -- | -- | -- | -- | -- |
+|  [SQUARE_ROOT](../main/experiment/square_root/square_root.e)    |16  | 19    | 19    | 19    | 19    | 19    | 19    | 19    | 19    |    19 | 22 | 22 | 22 | -- | -- |
 |  [FACTORIAL](../main/experiment/factorial/factorial.e)    | 10  | 17 | 17    | 17    | 17    | 17    | 17    | 17    | 17    | 17    |    18 | 18 | 18 | 18 | 18 |
-|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13  |19     | 20    | 20    | 20    | 20    | 20    | 20    |    -- | -- | -- | -- | -- | -- | -- |
+|  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13  |19     | 20    | 20    | 20    | 20    | 20    | 20    |    37 |  37 |  37 |  37 |  37 |  37 |  39 |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)  | 9    | 16    | 16    | 20    | 20    | 22    | 22    | 22    | 22    | 22  | 22    | 22 | 22 | 22 |  22 |
-|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 22   | 22    | 22    | 22    | 22    | 22    | 22    | 23    | -- | -- | -- | -- | -- | -- | -- |
+|  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 22   | 22    | --    | 22    | 22    | 22    | 22    | 23    | -- | 23 | -- | 23 | 23 | 23 | -- |
 |  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)   | 13    | 13    | 13    | 13    | 13    | 13    | 13    | 13 | 13 | 13 13   |13  | 13 | 13  | 13 | 
 |  [ADD](../main/experiment/add/add.e) | 8   | 8     | 8   | 8    | 8  | 8     |  8    | 8     | 8     | 8     | 8     | 8     | 8  |  8 | 8  |
 |  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14 14   | 14 |
