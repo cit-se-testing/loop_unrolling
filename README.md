@@ -100,11 +100,11 @@ Table 1 lists the average time of 20 repetition runs of test generation for each
 |  [GCD (Greatest Common Divisor)](../main/experiment/gcd/gcd.e)  |13  |19     | 20    | 20    | 20    | 20    | 20    | 20    |    37 |  37 |  37 |  37 |  37 |  37 |  39 |
 |  [SUM_AND_MAX](../main/experiment/sum_and_max/sum_and_max.e)  | 9    | 16    | 16    | 20    | 20    | 22    | 22    | 22    | 22    | 22  | 22    | 22 | 22 | 22 |  22 |
 |  [PRIME_CHECK](../main/experiment/prime_check/prime_check.e)  | 22   | 22    | 22    | 22    | 22    | 22    | 22    | 23    | 23 | 23 | 23 | 23 | 23 | 23 | 23 |
-|  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)   | 13    | 13    | 13    | 13    | 13    | 13    | 13    | 13 | 13 | 13 13   |13  | 13 | 13  | 13 | 
+|  [LINEAR_SEARCH](../main/experiment/linear_search/linear_search.e)   | 13    | 13    | 13    | 13    | 13    | 13    | 13    | 13 | 13 | 13  |13   |13  | 13 | 13  | 13 | 
 |  [ADD](../main/experiment/add/add.e) | 8   | 8     | 8   | 8    | 8  | 8     |  8    | 8     | 8     | 8     | 8     | 8     | 8  |  8 | 8  |
-|  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14 14   | 14 |
-|  [DIVIDE](../main/experiment/divide/divide.e)       | 11 | 12   | 12 | 12    | 12    | 12    | 12    | 12    | 12    | 12    | 12 |12  | 12 12   | 12 |
-|  [INVERSE](../main/experiment/inverse/inverse.e)    | 20 |22    |22  | 22    | 22    | 22    | 22    | 22    | 22    | 22    | 22 |22  | 22 22   | 22 |
+|  [MUTIPLY](../main/experiment/multiply/multiply.e)  | 13 | 14   | 14 | 14    | 14    | 14    | 14    | 14    | 14    | 14    | 14 | 14 | 14  |14   | 14 |
+|  [DIVIDE](../main/experiment/divide/divide.e)       | 11 | 12   | 12 | 12    | 12    | 12    | 12    | 12    | 12    | 12    | 12 |12  | 12  |12   | 12 |
+|  [INVERSE](../main/experiment/inverse/inverse.e)    | 20 |22    |22  | 22    | 22    | 22    | 22    | 22    | 22    | 22    | 22 |22  | 22  |22   | 22 |
 |  [BUBBLE_SORT](../main/experiment/bubble_sort/bubble_sort.e)  | 88 | 88  | 88  | 88 | 88 | 88      | 88       | 88      |-      |-      |–      |–      |–      |–      |      –| 
 |  [TWO_WAY_SORT](../main/experiment/two_way_sort/two_way_sort.e) | 48 | 54  | 55   | 55   | 55   | 55   | 55   | 55   |55   |55   |55   | 55   |55   |55  |  55| 
 |  [LCP (Longest Common Prefix)](../main/experiment/lcp/lcp.e) | 25  | 27  |29   |29   |29   |29   |29   |29   |29   |29   |29   |29   |30  |30  |  30| 
