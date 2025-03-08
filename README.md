@@ -1,6 +1,6 @@
 # Test generation with loop unrolling
 
-Table 1 lists the average time of 20 repetition runs of test generation for each example.
+The four tables below list the average result for each example over 20 repetition runs of test generation.
 
 <br><br>
 
